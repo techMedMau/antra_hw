@@ -1,6 +1,8 @@
 @import "normalize.css";
 @import "card.css";
 @import "header.css";
+@import "sidebar.css";
+@import "blog.css";
 
 * {
     box-sizing: border-box;
@@ -15,16 +17,19 @@ a:hover {
     color: #5a5a5a;
 }
 
-.container__header {
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .container__content {
-    max-width: 1200px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.container__blog {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .container_footer {
@@ -40,4 +45,9 @@ a:hover {
     .container__content {
         grid-template-columns: 1fr;
     }
+
+    .container__blog {
+        grid-template-columns: 1fr;
+    }
+
 }

@@ -5,7 +5,7 @@
     text-decoration: underline;
 }
 
-.header__button {
+button {
     border: none;
     background: none;
 }

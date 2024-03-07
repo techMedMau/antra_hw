@@ -7,12 +7,90 @@
     <link rel="stylesheet" href="../style/index.css">
 </head>
 <body>
-    <header class="container__header header">
+    <header class="container header">
         <button class="header__button header__button-subscribe" type="button">Subscribe</button>
         <h2>Maureen's Blog</h2>
         <button class="header__button" type="button">
             <img class="header__button-icon " src="../images/search.svg" alt="search button">
         </button>
     </header>
+    <main class="container container__blog">
+        <article class="blog">
+            <h3 class="blog__title">Sample blog post</h3>
+            <time class="blog__time">March 6, 2024 by <a href="#">Maureen</a></time>
+            <div class="blog__imgBlcok">
+                <img class="blog__imgBlock-img" src="../images/blog_image.png" alt="super bloom">
+            </div>
+            <div class="blog__content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="blog__highlight">
+                    Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
+                    As Cicero would put it, “Um, not so fast.”
+                </div>
+                <h4 class="blog__content-heading">Heading</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <h5 class="blog__content-subHeading">Sub-heading</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <pre class="blog__highlight"><code>Example code block</code></pre>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <h5 class="blog__content-subHeading">Sub-heading</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                    <li>Sed do eiusmod tempor incididunt ut</li>
+                    <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                    <li>Sed do eiusmod tempor incididunt ut</li>
+                    <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                </ol>
+            </div>            
+            <button class="blog__button blog__button-highlight" type="button">Older Post</button>
+            <button class="blog__button" type="button">Newer Post</button>
+        </article>
+        <aside class="sidebar">
+            <div class="sidebar__info">
+                <h4 class="sidebar__info-title">About</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <nav class="nav">
+                <h4 class="nav__title">Archives</h4>
+                <ul class="nav__list">
+                    <li class="nav__listItem"><a href="#">March 2024</a></li>
+                    <li class="nav__listItem"><a href="#">February 2024</a></li>
+                    <li class="nav__listItem"><a href="#">January 2024</a></li>
+                    <li class="nav__listItem"><a href="#">December 2023</a></li>
+                    <li class="nav__listItem"><a href="#">Novermber 2023</a></li>
+                    <li class="nav__listItem"><a href="#">October 2023</a></li>
+                    <li class="nav__listItem"><a href="#">September 2023</a></li>
+                    <li class="nav__listItem"><a href="#">August 2023</a></li>
+                </ul>
+            </nav>
+            <nav class="nav">
+                <h4 class="nav__title">Elsewhere</h4>
+                <ul class="nav__list">
+                    <li class="nav__listItem"><a href="#">GitHub</a></li>
+                    <li class="nav__listItem"><a href="#">Twitter</a></li>
+                    <li class="nav__listItem"><a href="#">Facebook</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </main>
+    <footer class="container_footer">
+        <p>Blog template buit for <a href="#">M</a></p>
+    </footer>
 </body>
 </html>
