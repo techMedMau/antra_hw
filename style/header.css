@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    text-decoration: underline;
+}
+
+.header__button {
+    border: none;
+    background: none;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    color: #005a9f;
+}
+
+.header__button-icon:hover {
+    cursor: pointer;
+    filter: invert(14%) sepia(87%) saturate(5104%) hue-rotate(195deg) brightness(87%) contrast(101%);
+    font-weight: bold;
+}
