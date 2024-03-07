@@ -35,3 +35,9 @@ a:hover {
     padding: 1rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px){
+    .container__content {
+        grid-template-columns: 1fr;
+    }
+}
